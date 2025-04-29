@@ -2,3 +2,6 @@
 # Data and models
 models/
 *.pt
+
+# wandb files
+wandb/
