@@ -1,0 +1,15 @@
+{"time":"2025-03-27T21:35:51.1502+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250327_213548-rsbn7v3l/logs/debug-core.log"}
+{"time":"2025-03-27T21:35:51.414898+01:00","level":"INFO","msg":"created new stream","id":"rsbn7v3l"}
+{"time":"2025-03-27T21:35:51.414987+01:00","level":"INFO","msg":"stream: started","id":"rsbn7v3l"}
+{"time":"2025-03-27T21:35:51.415044+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rsbn7v3l"}
+{"time":"2025-03-27T21:35:51.415104+01:00","level":"INFO","msg":"sender: started","stream_id":"rsbn7v3l"}
+{"time":"2025-03-27T21:35:51.415108+01:00","level":"INFO","msg":"handler: started","stream_id":"rsbn7v3l"}
+{"time":"2025-03-27T21:35:51.424629+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T22:29:12.917223+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T22:29:12.924033+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T22:29:12.929654+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-27T22:29:12.943715+01:00","level":"INFO","msg":"stream: closing","id":"rsbn7v3l"}
+{"time":"2025-03-27T22:29:12.943795+01:00","level":"INFO","msg":"handler: closed","stream_id":"rsbn7v3l"}
+{"time":"2025-03-27T22:29:12.943819+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rsbn7v3l"}
+{"time":"2025-03-27T22:29:12.944175+01:00","level":"INFO","msg":"sender: closed","stream_id":"rsbn7v3l"}
+{"time":"2025-03-27T22:29:12.944354+01:00","level":"INFO","msg":"stream: closed","id":"rsbn7v3l"}

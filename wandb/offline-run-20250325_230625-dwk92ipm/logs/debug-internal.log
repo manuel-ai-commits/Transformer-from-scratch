@@ -1,0 +1,14 @@
+{"time":"2025-03-25T23:06:25.809026+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250325_230625-dwk92ipm/logs/debug-core.log"}
+{"time":"2025-03-25T23:06:25.933977+01:00","level":"INFO","msg":"created new stream","id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:25.934033+01:00","level":"INFO","msg":"stream: started","id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:25.934088+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:25.93411+01:00","level":"INFO","msg":"handler: started","stream_id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:25.934413+01:00","level":"INFO","msg":"sender: started","stream_id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:25.941614+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-25T23:06:38.815719+01:00","level":"INFO","msg":"stream: closing","id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:38.815754+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-25T23:06:38.819983+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-25T23:06:38.820861+01:00","level":"INFO","msg":"handler: closed","stream_id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:38.820988+01:00","level":"INFO","msg":"sender: closed","stream_id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:38.820921+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dwk92ipm"}
+{"time":"2025-03-25T23:06:38.821582+01:00","level":"INFO","msg":"stream: closed","id":"dwk92ipm"}

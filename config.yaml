@@ -1,0 +1,66 @@
+### SEACH FOR "..." on every file to see where you need to add your code ###
+
+seed: 42
+device: "mps"  # cpu or cuda
+overwrite: False
+save: False
+
+input:
+  check_len: True # Check the length of the input sequence
+  # DS path
+  path: datasets
+
+  # Tokenizer path
+  tokenizer_path: "tokenizers/{0}.json"
+  lang_src: "en"
+  lang_tgt: "it"
+
+  seq_len: 350
+
+  batch_size: 10
+  dataset: "opus_books"
+  number_samples: # Number of samples to use for training and testing for quicker runs.
+
+
+model:
+  d_model: 512
+
+  # Feed Forward
+  d_ff: 2048
+
+  # Positional Encoding
+  dropout: 0.1
+
+  # LayerNorm
+  eps: 10e-6
+
+  # Multi Head Attention Block
+  n_heads: 8
+  if_dropout: False
+
+  # Encoder
+  n_layers_enc: 6
+  n_layers_dec: 6
+
+training:
+  num_workers: 6
+  epochs: 10 # 12 or 40 or 50
+
+  optimizer: "Adam"  # "Adam" or "SGD"
+  learning_rate: 1e-4
+  weight_decay: 3e-4
+  momentum: 0.9
+  betas: [0.9, 0.999]
+
+  downstream_learning_rate: 1e-2
+  downstream_weight_decay: 3e-3
+
+  val_idx: -1  # -1: validate only once training has finished; n: validate every n epochs.
+  final_test: True  # Set to true to evaluate performance on test-set.
+
+
+hydra:
+  run:
+    dir: logs
+
+

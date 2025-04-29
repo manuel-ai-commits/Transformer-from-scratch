@@ -1,0 +1,14 @@
+{"time":"2025-03-25T23:27:07.636258+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250325_232707-791oi3fr/logs/debug-core.log"}
+{"time":"2025-03-25T23:27:07.790566+01:00","level":"INFO","msg":"created new stream","id":"791oi3fr"}
+{"time":"2025-03-25T23:27:07.790644+01:00","level":"INFO","msg":"stream: started","id":"791oi3fr"}
+{"time":"2025-03-25T23:27:07.790665+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"791oi3fr"}
+{"time":"2025-03-25T23:27:07.790724+01:00","level":"INFO","msg":"sender: started","stream_id":"791oi3fr"}
+{"time":"2025-03-25T23:27:07.790693+01:00","level":"INFO","msg":"handler: started","stream_id":"791oi3fr"}
+{"time":"2025-03-25T23:27:07.798815+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-25T23:27:58.279855+01:00","level":"INFO","msg":"stream: closing","id":"791oi3fr"}
+{"time":"2025-03-25T23:27:58.280622+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-25T23:27:58.294493+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-25T23:27:58.297132+01:00","level":"INFO","msg":"handler: closed","stream_id":"791oi3fr"}
+{"time":"2025-03-25T23:27:58.297161+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"791oi3fr"}
+{"time":"2025-03-25T23:27:58.2972+01:00","level":"INFO","msg":"sender: closed","stream_id":"791oi3fr"}
+{"time":"2025-03-25T23:27:58.297974+01:00","level":"INFO","msg":"stream: closed","id":"791oi3fr"}

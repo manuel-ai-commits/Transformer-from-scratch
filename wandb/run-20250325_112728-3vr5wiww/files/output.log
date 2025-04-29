@@ -1,0 +1,18 @@
+/Users/manuel/Desktop/Main coding /My projects/Transformers /Users/manuel/Desktop/Main coding /My projects/Transformers/models dmodel512_en_it.pt /Users/manuel/Desktop/Main coding /My projects/Transformers/models/dmodel512_en_it.pt
+Training the model, as no pre-existing model was found.
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/main.py", line 129, in my_main
+    model, optimizer = utils.get_model_and_optimizer(opt)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/utils.py", line 54, in get_model_and_optimizer
+    model = Transformer(opt)
+            ^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/model.py", line 259, in __init__
+    self.src_vocab_size = self.opt.model.src_vocab_size
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+omegaconf.errors.ConfigAttributeError: Key 'src_vocab_size' is not in struct
+    full_key: model.src_vocab_size
+    object_type=dict
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

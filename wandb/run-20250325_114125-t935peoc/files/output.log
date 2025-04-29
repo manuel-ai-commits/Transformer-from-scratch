@@ -1,0 +1,18 @@
+/Users/manuel/Desktop/Main coding /My projects/Transformers /Users/manuel/Desktop/Main coding /My projects/Transformers/models dmodel512_en_it.pt /Users/manuel/Desktop/Main coding /My projects/Transformers/models/dmodel512_en_it.pt
+Training the model, as no pre-existing model was found.
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/main.py", line 129, in my_main
+    model, optimizer = utils.get_model_and_optimizer(opt)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/utils.py", line 54, in get_model_and_optimizer
+    model = Transformer(opt)
+            ^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/model.py", line 263, in __init__
+    self.model = Transformer(opt, self.src_vocab_size, self.tgt_vocab_size, self.seq_len, self.seq_len)
+                                  ^^^^^^^^^^^^^^^^^^^
+  File "/Users/manuel/.pyenv/versions/general_3.11/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1688, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'Transformer' object has no attribute 'src_vocab_size'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

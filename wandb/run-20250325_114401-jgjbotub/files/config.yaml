@@ -1,0 +1,42 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.11.10
+        t:
+            "1":
+                - 1
+                - 41
+                - 50
+                - 55
+            "2":
+                - 1
+                - 41
+                - 50
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.11.10
+            "5": 0.19.8
+            "8":
+                - 2
+                - 5
+            "12": 0.19.8
+            "13": darwin-x86_64
+device:
+    value: mps
+input:
+    value: '{''check_len'': True, ''path'': ''datasets'', ''tokenizer_path'': ''tokenizer'', ''lang_src'': ''en'', ''lang_tgt'': ''it'', ''seq_len'': 350, ''batch_size'': 10, ''dataset'': ''opus_books'', ''classes_allowed'': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], ''number_samples'': None}'
+model:
+    value: '{''d_model'': 512, ''d_ff'': 2048, ''dropout'': 0.1, ''eps'': 1e-05, ''n_heads'': 8, ''if_dropout'': False, ''n_layers_enc'': 6, ''n_layers_dec'': 6}'
+overwrite:
+    value: true
+save:
+    value: true
+seed:
+    value: 42
+training:
+    value: '{''num_workers'': 6, ''epochs'': 10, ''optimizer'': ''Adam'', ''learning_rate'': 0.0001, ''weight_decay'': 0.0003, ''momentum'': 0.9, ''betas'': [0.9, 0.999], ''downstream_learning_rate'': 0.01, ''downstream_weight_decay'': 0.003, ''val_idx'': -1, ''final_test'': True}'

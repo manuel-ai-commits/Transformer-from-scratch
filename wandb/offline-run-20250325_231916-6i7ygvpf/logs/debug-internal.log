@@ -1,0 +1,14 @@
+{"time":"2025-03-25T23:19:16.980729+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250325_231916-6i7ygvpf/logs/debug-core.log"}
+{"time":"2025-03-25T23:19:17.105824+01:00","level":"INFO","msg":"created new stream","id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:17.105909+01:00","level":"INFO","msg":"stream: started","id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:17.105948+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:17.105977+01:00","level":"INFO","msg":"sender: started","stream_id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:17.106196+01:00","level":"INFO","msg":"handler: started","stream_id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:17.110798+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-25T23:19:38.832257+01:00","level":"INFO","msg":"stream: closing","id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:38.832255+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-25T23:19:38.83572+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-25T23:19:38.836977+01:00","level":"INFO","msg":"handler: closed","stream_id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:38.837078+01:00","level":"INFO","msg":"sender: closed","stream_id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:38.837026+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6i7ygvpf"}
+{"time":"2025-03-25T23:19:38.837499+01:00","level":"INFO","msg":"stream: closed","id":"6i7ygvpf"}

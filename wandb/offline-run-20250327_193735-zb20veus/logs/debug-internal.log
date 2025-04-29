@@ -1,0 +1,7 @@
+{"time":"2025-03-27T19:37:36.066414+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250327_193735-zb20veus/logs/debug-core.log"}
+{"time":"2025-03-27T19:37:36.19088+01:00","level":"INFO","msg":"created new stream","id":"zb20veus"}
+{"time":"2025-03-27T19:37:36.190964+01:00","level":"INFO","msg":"stream: started","id":"zb20veus"}
+{"time":"2025-03-27T19:37:36.190993+01:00","level":"INFO","msg":"sender: started","stream_id":"zb20veus"}
+{"time":"2025-03-27T19:37:36.191037+01:00","level":"INFO","msg":"handler: started","stream_id":"zb20veus"}
+{"time":"2025-03-27T19:37:36.191113+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zb20veus"}
+{"time":"2025-03-27T19:37:36.195978+01:00","level":"INFO","msg":"Starting system monitor"}

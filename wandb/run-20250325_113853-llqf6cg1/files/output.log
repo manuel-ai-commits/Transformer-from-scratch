@@ -1,0 +1,18 @@
+/Users/manuel/Desktop/Main coding /My projects/Transformers /Users/manuel/Desktop/Main coding /My projects/Transformers/models dmodel512_en_it.pt /Users/manuel/Desktop/Main coding /My projects/Transformers/models/dmodel512_en_it.pt
+Training the model, as no pre-existing model was found.
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/main.py", line 129, in my_main
+    model, optimizer = utils.get_model_and_optimizer(opt)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/utils.py", line 54, in get_model_and_optimizer
+    model = Transformer(opt)
+            ^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/model.py", line 260, in __init__
+    self.src_seq_len = self.opt.model.src_seq_len
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+omegaconf.errors.ConfigAttributeError: Key 'src_seq_len' is not in struct
+    full_key: model.src_seq_len
+    object_type=dict
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

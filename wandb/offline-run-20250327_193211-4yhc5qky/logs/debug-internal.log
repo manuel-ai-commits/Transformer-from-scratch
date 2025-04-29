@@ -1,0 +1,7 @@
+{"time":"2025-03-27T19:32:11.415405+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250327_193211-4yhc5qky/logs/debug-core.log"}
+{"time":"2025-03-27T19:32:11.537438+01:00","level":"INFO","msg":"created new stream","id":"4yhc5qky"}
+{"time":"2025-03-27T19:32:11.537512+01:00","level":"INFO","msg":"stream: started","id":"4yhc5qky"}
+{"time":"2025-03-27T19:32:11.537535+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"4yhc5qky"}
+{"time":"2025-03-27T19:32:11.537573+01:00","level":"INFO","msg":"handler: started","stream_id":"4yhc5qky"}
+{"time":"2025-03-27T19:32:11.537613+01:00","level":"INFO","msg":"sender: started","stream_id":"4yhc5qky"}
+{"time":"2025-03-27T19:32:11.546435+01:00","level":"INFO","msg":"Starting system monitor"}

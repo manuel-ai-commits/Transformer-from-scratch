@@ -1,0 +1,37 @@
+seed: 42
+device: mps
+overwrite: true
+save: true
+input:
+  check_len: true
+  path: datasets
+  tokenizer_path: tokenizers/{0}.json
+  lang_src: en
+  lang_tgt: it
+  seq_len: 350
+  batch_size: 10
+  dataset: opus_books
+  number_samples: null
+model:
+  d_model: 512
+  d_ff: 2048
+  dropout: 0.1
+  eps: 1.0e-05
+  n_heads: 8
+  if_dropout: false
+  n_layers_enc: 6
+  n_layers_dec: 6
+training:
+  num_workers: 6
+  epochs: 10
+  optimizer: Adam
+  learning_rate: 0.0001
+  weight_decay: 0.0003
+  momentum: 0.9
+  betas:
+  - 0.9
+  - 0.999
+  downstream_learning_rate: 0.01
+  downstream_weight_decay: 0.003
+  val_idx: -1
+  final_test: true

@@ -1,0 +1,14 @@
+{"time":"2025-03-25T23:16:59.00836+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250325_231658-kkfldafb/logs/debug-core.log"}
+{"time":"2025-03-25T23:16:59.131296+01:00","level":"INFO","msg":"created new stream","id":"kkfldafb"}
+{"time":"2025-03-25T23:16:59.131369+01:00","level":"INFO","msg":"stream: started","id":"kkfldafb"}
+{"time":"2025-03-25T23:16:59.131399+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kkfldafb"}
+{"time":"2025-03-25T23:16:59.131457+01:00","level":"INFO","msg":"handler: started","stream_id":"kkfldafb"}
+{"time":"2025-03-25T23:16:59.131571+01:00","level":"INFO","msg":"sender: started","stream_id":"kkfldafb"}
+{"time":"2025-03-25T23:16:59.139501+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-25T23:17:11.775238+01:00","level":"INFO","msg":"stream: closing","id":"kkfldafb"}
+{"time":"2025-03-25T23:17:11.775328+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-25T23:17:11.778661+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-25T23:17:11.780588+01:00","level":"INFO","msg":"handler: closed","stream_id":"kkfldafb"}
+{"time":"2025-03-25T23:17:11.780785+01:00","level":"INFO","msg":"sender: closed","stream_id":"kkfldafb"}
+{"time":"2025-03-25T23:17:11.78075+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kkfldafb"}
+{"time":"2025-03-25T23:17:11.781351+01:00","level":"INFO","msg":"stream: closed","id":"kkfldafb"}

@@ -1,0 +1,25 @@
+/Users/manuel/Desktop/Main coding /My projects/Transformers /Users/manuel/Desktop/Main coding /My projects/Transformers/models dmodel512_en_it.pt /Users/manuel/Desktop/Main coding /My projects/Transformers/models/dmodel512_en_it.pt
+Training the model, as no pre-existing model was found.
+README.md: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28.1k/28.1k [00:00<00:00, 23.1MB/s]
+train-00000-of-00001.parquet: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 5.73M/5.73M [00:00<00:00, 19.5MB/s]
+Generating train split: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 32332/32332 [00:00<00:00, 401573.71 examples/s]
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/main.py", line 129, in my_main
+    model, optimizer = utils.get_model_and_optimizer(opt)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/utils.py", line 53, in get_model_and_optimizer
+    model = Transformer(opt)
+            ^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/model.py", line 262, in __init__
+    self.tokenizer_src, self.tokenizer_tgt = utils.get_data_or_tokenizer(self.opt, "train", data=False)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/utils.py", line 116, in get_data_or_tokenizer
+    tokenizer_src = get_or_build_tokenizer(opt, ds_raw, opt.input.lang_src)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manuel/Desktop/Main coding /My projects/Transformers/src/utils.py", line 29, in get_or_build_tokenizer
+    tokenizer = Tokenizer.from_file(str(tokenizer_path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: Is a directory (os error 21)
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

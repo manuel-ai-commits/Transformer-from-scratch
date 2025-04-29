@@ -1,0 +1,14 @@
+{"time":"2025-03-27T19:35:45.000663+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/offline-run-20250327_193544-gsopq06k/logs/debug-core.log"}
+{"time":"2025-03-27T19:35:45.123074+01:00","level":"INFO","msg":"created new stream","id":"gsopq06k"}
+{"time":"2025-03-27T19:35:45.123146+01:00","level":"INFO","msg":"stream: started","id":"gsopq06k"}
+{"time":"2025-03-27T19:35:45.123215+01:00","level":"INFO","msg":"handler: started","stream_id":"gsopq06k"}
+{"time":"2025-03-27T19:35:45.123255+01:00","level":"INFO","msg":"sender: started","stream_id":"gsopq06k"}
+{"time":"2025-03-27T19:35:45.123253+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gsopq06k"}
+{"time":"2025-03-27T19:35:45.129559+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T19:35:50.137634+01:00","level":"INFO","msg":"stream: closing","id":"gsopq06k"}
+{"time":"2025-03-27T19:35:50.137674+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T19:35:50.138805+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T19:35:50.139533+01:00","level":"INFO","msg":"handler: closed","stream_id":"gsopq06k"}
+{"time":"2025-03-27T19:35:50.139588+01:00","level":"INFO","msg":"sender: closed","stream_id":"gsopq06k"}
+{"time":"2025-03-27T19:35:50.139566+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gsopq06k"}
+{"time":"2025-03-27T19:35:50.139801+01:00","level":"INFO","msg":"stream: closed","id":"gsopq06k"}

@@ -1,0 +1,15 @@
+{"time":"2025-03-25T11:03:54.560385+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/manuel/Desktop/Main coding /My projects/Transformers/wandb/run-20250325_110354-3ngbrl51/logs/debug-core.log"}
+{"time":"2025-03-25T11:03:54.834489+01:00","level":"INFO","msg":"created new stream","id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:54.834575+01:00","level":"INFO","msg":"stream: started","id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:54.834636+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:54.834656+01:00","level":"INFO","msg":"handler: started","stream_id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:54.834757+01:00","level":"INFO","msg":"sender: started","stream_id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:55.366475+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-25T11:03:55.959604+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-25T11:03:55.959735+01:00","level":"INFO","msg":"stream: closing","id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:55.961424+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-25T11:03:57.015628+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-25T11:03:57.325124+01:00","level":"INFO","msg":"sender: closed","stream_id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:57.324969+01:00","level":"INFO","msg":"handler: closed","stream_id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:57.325057+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3ngbrl51"}
+{"time":"2025-03-25T11:03:57.325766+01:00","level":"INFO","msg":"stream: closed","id":"3ngbrl51"}
