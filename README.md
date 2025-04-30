@@ -8,6 +8,6 @@ The core idea is to use multi-head attention, which splits the input into severa
 
 ## Acknowledgments
 
-This project was inspired by [Umar Jamil]’s excellent tutorial on building Transformers from scratch:  
-🔗 [YouTube Video]([https://youtu.be/example](https://www.youtube.com/watch?v=ISNdQcPhsts&t=10180s))  
-🔗 [GitHub Repository]([https://github.com/username/repo-name](https://github.com/hkproj/pytorch-transformer))
+This project was inspired by [Umar Jamil](https://www.youtube.com/watch?v=ISNdQcPhsts&t=10180s)’s excellent tutorial on building Transformers from scratch:  
+🔗 [YouTube Video](https://www.youtube.com/watch?v=ISNdQcPhsts&t=10180s)  
+🔗 [GitHub Repository](https://github.com/hkproj/pytorch-transformer)
